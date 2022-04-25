@@ -1,0 +1,51 @@
+:root {
+    --white: white;
+    --black: black;
+    --bg-body: rgba(22,14,30,1);
+    --text-new: rgb(207 195 155);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-body);
+    margin-right: -1rem;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-bold{
+    font-weight: bold;
+}
