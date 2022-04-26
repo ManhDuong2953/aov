@@ -192,19 +192,12 @@
         width: -webkit-fill-available;
     }
 
-
-
-
-
-
-
     .nav-mobile {
         display: flex;
         position: fixed;
         background-color: rgb(15 17 32);
         bottom: -1rem;
         width: 100vw;
-        /* justify-content: space-around; */
         height: 5rem;
         line-height: 5rem;
         z-index: 99;

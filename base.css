@@ -9,11 +9,6 @@ html::-webkit-scrollbar{
     display: none;
 }
 
-html{
-    width: 99vw;
-    overflow-x: hidden;
-}
-
 #main{
     width: 100vw;
 }
@@ -35,9 +30,8 @@ html{
 body {
     overflow-x: hidden;
     background-color: var(--bg-body);
-    margin-right: -1rem;
     font-family: "Montserrat", arial, helvetica, sans-serif;
-
+    width: fit-content;
 }
 
 
