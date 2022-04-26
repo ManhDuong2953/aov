@@ -5,6 +5,14 @@
     --text-new: rgb(207 195 155);
 }
 
+html::-webkit-scrollbar{
+    display: none;
+}
+
+
+#main{
+    width: 100vw;
+}
 
 
 * {
@@ -16,6 +24,7 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -36,6 +45,10 @@ a {
 
 li {
     list-style: none;
+}
+
+ul{
+    padding: 0;
 }
 
 

@@ -41,6 +41,10 @@ img.error {
 }
 
 
+.header-icon{
+    display: none;
+}
+
 .list-1 li.list-item {
     background-color: var(--black);
 
@@ -88,6 +92,9 @@ img.logo:hover {
 
 img.download {
     margin: 0 3rem;
+}
+.download-container-mobile{
+    display: none;
 }
 
 
@@ -289,7 +296,9 @@ p.dsr {
 }
 
 
-
+#require-device {
+    height: 165%;
+}
 
 .device {
     display: flex;
@@ -369,4 +378,9 @@ a.rules.none-border{
 
 .term a:hover{
     color:  rgb(35 82 124);
+}
+
+
+.nav-mobile {
+    display: none;
 }
