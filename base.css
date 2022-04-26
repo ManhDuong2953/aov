@@ -9,12 +9,13 @@ html::-webkit-scrollbar{
     display: none;
 }
 
-body{
+html{
+    width: 100vw;
     overflow-x: hidden;
 }
 
 #main{
-    width: 7vw;
+    width: 100vw;
 }
 
 
