@@ -5,9 +5,9 @@
     --text-new: rgb(207 195 155);
 }
 
-html::-webkit-scrollbar{
+/* html::-webkit-scrollbar{
     display: none;
-}
+} */
 
 
 #main{
