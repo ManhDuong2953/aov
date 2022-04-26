@@ -5,14 +5,16 @@
     --text-new: rgb(207 195 155);
 }
 
-/* html::-webkit-scrollbar{
+html::-webkit-scrollbar{
     display: none;
-} */
+}
 
+body{
+    overflow-x: hidden;
+}
 
 #main{
     width: 100vw;
-    overflow: hidden;
 }
 
 
