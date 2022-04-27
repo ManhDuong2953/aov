@@ -39,10 +39,6 @@
 
 
 @media screen and (max-width: 1023px) {
-    /* body {
-        width: initial;
-    } */
-
     .container {
         padding: 0;
         width: 100vw;
@@ -66,8 +62,6 @@
         height: auto;
     }
 
-
-
     .download-container-mobile {
         bottom: 2rem;
         display: flex;
@@ -75,7 +69,6 @@
         width: -webkit-fill-available;
         justify-content: center;
     }
-
 
     img.download-mb {
         width: 12rem;
@@ -96,7 +89,6 @@
         display: flex;
     }
 
-
     .title-header {
         margin-top: 1rem;
         margin-left: 0.4rem;
@@ -110,8 +102,6 @@
         text-overflow: ellipsis;
         font-size: 0.875rem;
     }
-
-
 
     .title-header p {
         color: rgb(131 148 190);
@@ -129,7 +119,6 @@
         width: 7rem;
     }
 
-
     #demo {
         top: -4.5rem;
         position: relative;
@@ -139,9 +128,6 @@
         display: none;
     }
 
-
-
-
     .col-1-nbt {
         margin: 1rem 0;
     }
@@ -149,7 +135,6 @@
     p.view-more {
         margin: 3rem 4rem 1rem;
     }
-
 
     .content-event {
         width: min-content;
@@ -179,9 +164,8 @@
     }
 
     .box {
-        width: 98%;
+        width: 100%;
     }
-
 
     #footer {
         margin-top: 0;
